@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.uniqueanimalssounds.`5horse`">
+
+    <Button
+        android:id="@+id/btnhorse"
+        android:layout_width="286dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/horse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnbird"
+        android:layout_width="138dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bird"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhorse" />
+
+    <Button
+        android:id="@+id/btncow"
+        android:layout_width="159dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/cow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhorse" />
+</androidx.constraintlayout.widget.ConstraintLayout>
